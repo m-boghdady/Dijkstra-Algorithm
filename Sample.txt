@@ -1,0 +1,37 @@
+File: Sample.txt
+Results for sample graph in file "TestG.txt"
+
+Number of Vertices = 7
+Number of Edges = 10
+
+Adjacency Matrix
+  0  15  30   0  20   0   0
+ 15   0   0  40   0   0   0
+ 30   0   0  35  10   0   0
+  0  40  35   0   0  11   0
+ 20   0  10   0   0  50  75
+  0   0   0  11  50   0  16
+  0   0   0   0  75  16   0
+
+Graph Edges
+A B 15
+A C 30
+A E 20
+B D 40
+C D 35
+C E 10
+D F 11
+E F 50
+E G 75
+F G 16
+
+Shortest Paths from Node A
+   0 A
+  15 AB
+  30 AC
+  55 ABD
+  20 AE
+  66 ABDF
+  82 ABDFG
+
+
